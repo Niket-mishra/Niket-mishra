@@ -6,6 +6,6 @@
     </linearGradient>
   </defs>
   <rect width="800" height="300" rx="16" fill="url(#g3)" />
-  <text x="50" y="140" font-family="Verdana, Geneva, sans-serif" font-size="36" fill="#fff">Mobile & Flutter</text>
+  <text x="50" y="140" font-family="Verdana, Geneva, sans-serif" font-size="36" fill="#fff">Mobile &amp; Flutter</text>
   <text x="50" y="180" font-family="Verdana, Geneva, sans-serif" font-size="18" fill="#fff1f4">Cross-platform UI · Prototypes</text>
 </svg>

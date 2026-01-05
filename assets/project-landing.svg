@@ -6,6 +6,6 @@
     </linearGradient>
   </defs>
   <rect width="800" height="300" rx="16" fill="url(#g1)" />
-  <text x="50" y="140" font-family="Verdana, Geneva, sans-serif" font-size="36" fill="#fff">Landing & Portfolio</text>
+  <text x="50" y="140" font-family="Verdana, Geneva, sans-serif" font-size="36" fill="#fff">Landing &amp; Portfolio</text>
   <text x="50" y="180" font-family="Verdana, Geneva, sans-serif" font-size="18" fill="#ffe6f9">Performance · SEO · Accessibility</text>
 </svg>

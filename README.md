@@ -1,16 +1,25 @@
-# Niket Mishra  
+<p align="center">
+    <img src="https://avatars.githubusercontent.com/u/157272356?v=4" width="110" height="110" alt="avatar" style="border-radius:50%; border:2px solid rgba(56, 243, 237, 0.95); box-shadow: 0 0 18px rgba(92, 113, 248, 0.65), 0 0 36px rgba(249, 242, 227, 0.28); display:block; margin:0 auto;" />
+</p>
 
-![Open for work](https://img.shields.io/badge/Status-Open%20for%20Work-brightgreen) ![Followers](https://img.shields.io/github/followers/Niket-mishra?label=Follow&style=social)
+<p align="center">
+	<strong style="font-size:22px">Niket Mishra</strong><br />
+	Full Stack Developer • Technical Writer • Blogger
+</p>
 
-[![Download Resume](https://img.shields.io/badge/Resume-Download-blue?logo=read-the-docs)](RESUME.md)
+<p align="center">
+	I design and build production-ready web applications and clear technical documentation — combining front-end craftsmanship with back-end systems knowledge to deliver maintainable, performant solutions.
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/niket-mishra) [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter)](https://twitter.com/niketmishra) [![Website](https://img.shields.io/badge/Portfolio-Visit-black?logo=google-chrome)](https://github.com/Niket-mishra)
+<p align="center">
+	<a href="RESUME.pdf"><img src="https://img.shields.io/badge/Resume-Download-blue?logo=read-the-docs" alt="download resume"/></a>
+	<a href="https://www.linkedin.com/in/niket-mishra"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin" alt="linkedin"/></a>
+	<a href="https://twitter.com/niketmishra"><img src="https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter" alt="twitter"/></a>
+	<a href="https://github.com/Niket-mishra"><img src="https://img.shields.io/github/followers/Niket-mishra?label=Follow&style=social" alt="github followers"/></a>
+	<a href="https://niket-mishra.github.io/"><img src="https://img.shields.io/badge/Portfolio-Visit-black?logo=google-chrome" alt="portfolio"/></a>
+</p>
 
-Full Stack Developer • Technical Writer
-
-I design and build production-ready web applications and clear technical documentation. I combine front-end craftsmanship with back-end systems knowledge to deliver maintainable, performant solutions.
-
-![typing](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2000&color=F7AB0A&center=true&vCenter=true&lines=Full%20Stack%20Developer;Technical%20Writer;Open%20to%20Collaborations)
+![typing](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2000&color=F7AB0A&center=true&vCenter=true&lines=Full%20Stack%20Developer;Technical%20Writer;AI%20Blogger;Open%20to%20Collaborations)
 
 **What I Do:**
 - Build responsive, accessible user interfaces and component libraries.
@@ -30,9 +39,13 @@ Git · VS Code · Visual Studio · Firebase · Supabase · Docker · REST APIs �
 
 ## Snapshot
 
-| GitHub Stats | Top Languages |
-| ---: | :--- |
-| ![GitHub stats](https://github-readme-stats.vercel.app/api?username=Niket-mishra&show_icons=true&theme=tokyonight) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Niket-mishra&layout=compact&theme=tokyonight) |
+Embedded live GitHub stats and language summary.
+
+<img src="assets/github-stats.svg" alt="GitHub stats" />
+
+**Top Languages:** JavaScript · Java · C# · HTML · CSS · SQL
+
+> Note: Live Vercel cards were paused; this SVG renders current counts (repositories, followers, stars, forks) pulled directly from the GitHub API when generated.
 
 ---
 

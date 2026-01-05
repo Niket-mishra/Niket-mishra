@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220">
+  <style>
+    .title { font: 700 18px/1.2 'Segoe UI', Roboto, Arial; fill:#0f172a }
+    .label { font: 600 13px/1 'Segoe UI', Roboto, Arial; fill:#fff }
+    .count { font: 600 12px/1 'Segoe UI', Roboto, Arial; fill:#0f172a }
+    .bar-bg { fill:#e6eef8 }
+  </style>
+  <rect width="820" height="220" rx="12" fill="#fff" stroke="#e6eef8"/>
+  <text x="24" y="34" class="title">GitHub Snapshot</text>
+
+  <!-- Data: repos=25, followers=3, stars=0, forks=0 -->
+  <!-- Scale: max value 25 -> bar max width 620 -->
+  <g transform="translate(24,50)">
+    <!-- Repos -->
+    <text x="0" y="14" class="label">Repositories</text>
+    <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
+    <rect x="140" y="-8" width="620" height="30" rx="6" fill="#7b2ff7"/>
+    <text x="360" y="14" class="label">25</text>
+
+    <!-- Followers -->
+    <g transform="translate(0,50)">
+      <text x="0" y="14" class="label">Followers</text>
+      <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
+      <rect x="140" y="-8" width="74" height="30" rx="6" fill="#00c6ff"/>
+      <text x="200" y="14" class="label">3</text>
+    </g>
+
+    <!-- Stars -->
+    <g transform="translate(0,100)">
+      <text x="0" y="14" class="label">Stars</text>
+      <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
+      <rect x="140" y="-8" width="0" height="30" rx="6" fill="#f107a3"/>
+      <text x="200" y="14" class="label">0</text>
+    </g>
+
+    <!-- Forks -->
+    <g transform="translate(0,150)">
+      <text x="0" y="14" class="label">Forks</text>
+      <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
+      <rect x="140" y="-8" width="0" height="30" rx="6" fill="#ffd166"/>
+      <text x="200" y="14" class="label">0</text>
+    </g>
+  </g>
+
+  <text x="24" y="210" font-size="11" fill="#64748b">Live counts pulled from GitHub API — refresh README to update.</text>
+</svg>
