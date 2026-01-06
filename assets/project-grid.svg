@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200" height="560"
+     viewBox="0 0 1200 560">
 
   <defs>
-    <!-- Shared shine -->
+    <!-- Shine -->
     <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
       <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
@@ -32,83 +34,82 @@
       <stop offset="0%" stop-color="#7b2ff7"/>
       <stop offset="100%" stop-color="#f107a3"/>
     </linearGradient>
-
     <linearGradient id="g-blue" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#00c6ff"/>
       <stop offset="100%" stop-color="#0072ff"/>
     </linearGradient>
-
     <linearGradient id="g-orange" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ff7a18"/>
       <stop offset="100%" stop-color="#af002d"/>
     </linearGradient>
-
     <linearGradient id="g-green" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#00bfa5"/>
       <stop offset="100%" stop-color="#00695c"/>
     </linearGradient>
-
     <linearGradient id="g-navy" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0f2027"/>
       <stop offset="100%" stop-color="#2c5364"/>
     </linearGradient>
-
     <linearGradient id="g-gold" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ffb347"/>
       <stop offset="100%" stop-color="#ff5f6d"/>
     </linearGradient>
-
-    <!-- Text style -->
-    <style>
-      .title { font: 700 20px system-ui; fill: #ffffff; }
-      .sub { font: 500 14px system-ui; fill: #f8fafc; opacity: 0.95; }
-    </style>
   </defs>
-
-  <!-- CARD TEMPLATE FUNCTION (manually repeated for GitHub safety) -->
 
   <!-- Row 1 -->
   <g transform="translate(40,40)">
     <rect width="340" height="200" rx="18" fill="url(#g-purple)" filter="url(#shadow-purple)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" class="title">Landing & Portfolio</text>
-    <text x="24" y="120" class="sub">Performance · SEO · Accessibility</text>
+    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="20" font-weight="700" fill="#ffffff">Landing &amp; Portfolio</text>
+    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="14" fill="#f8fafc" opacity="0.95">Performance · SEO · Accessibility</text>
   </g>
 
   <g transform="translate(430,40)">
     <rect width="340" height="200" rx="18" fill="url(#g-blue)" filter="url(#shadow-blue)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" class="title">Full-Stack Apps</text>
-    <text x="24" y="120" class="sub">Spring Boot · React · REST APIs</text>
+    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="20" font-weight="700" fill="#ffffff">Full-Stack Apps</text>
+    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="14" fill="#f8fafc" opacity="0.95">Spring Boot · React · REST APIs</text>
   </g>
 
   <g transform="translate(820,40)">
     <rect width="340" height="200" rx="18" fill="url(#g-orange)" filter="url(#shadow-orange)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" class="title">Mobile & Flutter</text>
-    <text x="24" y="120" class="sub">Cross-platform UI · Prototypes</text>
+    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="20" font-weight="700" fill="#ffffff">Mobile &amp; Flutter</text>
+    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="14" fill="#f8fafc" opacity="0.95">Cross-platform UI · Prototypes</text>
   </g>
 
   <!-- Row 2 -->
   <g transform="translate(40,280)">
     <rect width="340" height="200" rx="18" fill="url(#g-green)" filter="url(#shadow-green)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" class="title">Backend & APIs</text>
-    <text x="24" y="120" class="sub">Architecture · Security · Performance</text>
+    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="20" font-weight="700" fill="#ffffff">Backend &amp; APIs</text>
+    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="14" fill="#f8fafc" opacity="0.95">Architecture · Security · Performance</text>
   </g>
 
   <g transform="translate(430,280)">
     <rect width="340" height="200" rx="18" fill="url(#g-navy)" filter="url(#shadow-navy)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" class="title">Cloud & DevOps</text>
-    <text x="24" y="120" class="sub">Docker · CI/CD · Deployments</text>
+    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="20" font-weight="700" fill="#ffffff">Cloud &amp; DevOps</text>
+    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="14" fill="#f8fafc" opacity="0.95">Docker · CI/CD · Deployments</text>
   </g>
 
   <g transform="translate(820,280)">
     <rect width="340" height="200" rx="18" fill="url(#g-gold)" filter="url(#shadow-gold)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" class="title">Technical Writing</text>
-    <text x="24" y="120" class="sub">Docs · DX · Knowledge Sharing</text>
+    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="20" font-weight="700" fill="#ffffff">Technical Writing</text>
+    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
+          font-size="14" fill="#f8fafc" opacity="0.95">Docs · DX · Knowledge Sharing</text>
   </g>
 
 </svg>
