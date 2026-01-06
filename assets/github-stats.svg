@@ -1,45 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="250" viewBox="0 0 820 250">
   <style>
-    .title { font: 700 18px/1.2 'Segoe UI', Roboto, Arial; fill:#0f172a }
-    .label { font: 600 13px/1 'Segoe UI', Roboto, Arial; fill:#fff }
-    .count { font: 600 12px/1 'Segoe UI', Roboto, Arial; fill:#0f172a }
-    .bar-bg { fill:#e6eef8 }
+    :root {
+      --bg: #ffffff;
+      --border: #e5edf7;
+      --title: #0f172a;
+      --label: #334155;
+      --count: #0f172a;
+      --bar-bg: #e5edf7;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b1220;
+        --border: #1e293b;
+        --title: #e5e7eb;
+        --label: #cbd5f5;
+        --count: #f8fafc;
+        --bar-bg: #1e293b;
+      }
+    }
+
+    .title { font: 700 18px system-ui, -apple-system, Segoe UI, Roboto, Arial; fill: var(--title); }
+    .label { font: 600 13px system-ui; fill: var(--label); }
+    .count { font: 700 13px system-ui; fill: var(--count); }
+    .bar-bg { fill: var(--bar-bg); }
+    .bar {
+      animation: grow 1.4s ease-out forwards;
+      transform-origin: left;
+      transform: scaleX(0);
+    }
+
+    @keyframes grow {
+      to { transform: scaleX(1); }
+    }
   </style>
-  <rect width="820" height="220" rx="12" fill="#fff" stroke="#e6eef8"/>
+
+  <!-- Card -->
+  <rect width="820" height="250" rx="14" fill="var(--bg)" stroke="var(--border)"/>
+
+  <!-- Title -->
   <text x="24" y="34" class="title">GitHub Snapshot</text>
 
-  <!-- Data: repos=25, followers=3, stars=0, forks=0 -->
-  <!-- Scale: max value 25 -> bar max width 620 -->
-  <g transform="translate(24,50)">
+  <!-- Content -->
+  <g transform="translate(24,60)">
+
     <!-- Repos -->
-    <text x="0" y="14" class="label">Repositories</text>
-    <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
-    <rect x="140" y="-8" width="620" height="30" rx="6" fill="#7b2ff7"/>
-    <text x="360" y="14" class="label">25</text>
+    <g>
+      <path d="M0 8h14v10H0z" fill="#7b2ff7"/>
+      <text x="24" y="16" class="label">Repositories</text>
+      <rect x="170" y="2" width="600" height="26" rx="6" class="bar-bg"/>
+      <rect x="170" y="2" width="600" height="26" rx="6" fill="#7b2ff7" class="bar"/>
+      <text x="780" y="20" text-anchor="end" class="count">40</text>
+    </g>
 
     <!-- Followers -->
-    <g transform="translate(0,50)">
-      <text x="0" y="14" class="label">Followers</text>
-      <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
-      <rect x="140" y="-8" width="74" height="30" rx="6" fill="#00c6ff"/>
-      <text x="200" y="14" class="label">3</text>
+    <g transform="translate(0,48)">
+      <circle cx="7" cy="10" r="7" fill="#00c6ff"/>
+      <text x="24" y="16" class="label">Followers</text>
+      <rect x="170" y="2" width="600" height="26" rx="6" class="bar-bg"/>
+      <rect x="170" y="2" width="72" height="26" rx="6" fill="#00c6ff" class="bar"/>
+      <text x="780" y="20" text-anchor="end" class="count">4</text>
     </g>
 
     <!-- Stars -->
-    <g transform="translate(0,100)">
-      <text x="0" y="14" class="label">Stars</text>
-      <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
-      <rect x="140" y="-8" width="0" height="30" rx="6" fill="#f107a3"/>
-      <text x="200" y="14" class="label">0</text>
+    <g transform="translate(0,96)">
+      <polygon points="7,0 9,6 15,6 10,10 12,16 7,12 2,16 4,10 -1,6 5,6" fill="#f107a3"/>
+      <text x="24" y="16" class="label">Stars</text>
+      <rect x="170" y="2" width="600" height="26" rx="6" class="bar-bg"/>
+      <rect x="170" y="2" width="6" height="26" rx="6" fill="#f107a3" class="bar"/>
+      <text x="780" y="20" text-anchor="end" class="count">3</text>
     </g>
 
     <!-- Forks -->
-    <g transform="translate(0,150)">
-      <text x="0" y="14" class="label">Forks</text>
-      <rect x="140" y="-8" width="620" height="30" class="bar-bg" rx="6"/>
-      <rect x="140" y="-8" width="0" height="30" rx="6" fill="#ffd166"/>
-      <text x="200" y="14" class="label">0</text>
+    <g transform="translate(0,144)">
+      <path d="M5 0a5 5 0 100 10A5 5 0 005 0zm20 16a5 5 0 100 10 5 5 0 000-10zM5 10v8h20" fill="#ffd166"/>
+      <text x="24" y="16" class="label">Forks</text>
+      <rect x="170" y="2" width="600" height="26" rx="6" class="bar-bg"/>
+      <rect x="170" y="2" width="6" height="26" rx="6" fill="#ffd166" class="bar"/>
+      <text x="780" y="20" text-anchor="end" class="count">1</text>
     </g>
-  </g>
 
+  </g>
 </svg>
