@@ -1,11 +1,71 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="700" height="300" viewBox="0 0 800 300">
+
   <defs>
-    <linearGradient id="g1" x1="0" x2="1">
-      <stop offset="0" stop-color="#7b2ff7" />
-      <stop offset="1" stop-color="#f107a3" />
+    <!-- Background gradient -->
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#f107a3"/>
     </linearGradient>
+
+    <!-- Soft highlight -->
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Card shadow -->
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="20"
+        flood-color="#4a005c" flood-opacity="0.35"/>
+    </filter>
   </defs>
-  <rect width="700" height="300" rx="16" fill="url(#g1)" />
-  <text x="50" y="140" font-family="Verdana, Geneva, sans-serif" font-size="36" fill="#fff">Landing &amp; Portfolio</text>
-  <text x="50" y="180" font-family="Verdana, Geneva, sans-serif" font-size="18" fill="#ffe6f9">Performance · SEO · Accessibility</text>
+
+  <!-- Card -->
+  <rect
+    x="50"
+    y="30"
+    width="700"
+    height="240"
+    rx="18"
+    fill="url(#g1)"
+    filter="url(#softShadow)"
+  />
+
+  <!-- Light sheen -->
+  <rect
+    x="50"
+    y="30"
+    width="700"
+    height="120"
+    rx="18"
+    fill="url(#shine)"
+  />
+
+  <!-- Content -->
+  <g transform="translate(90,120)">
+
+    <!-- Title -->
+    <text
+      font-family="system-ui, -apple-system, Segoe UI, Roboto, Verdana"
+      font-size="38"
+      font-weight="700"
+      fill="#ffffff">
+      Landing &amp; Portfolio
+    </text>
+
+    <!-- Accent underline -->
+    <rect x="0" y="14" width="110" height="4" rx="2" fill="#ffffff" opacity="0.85"/>
+
+    <!-- Subtitle -->
+    <text
+      y="54"
+      font-family="system-ui, -apple-system, Segoe UI, Roboto, Verdana"
+      font-size="18"
+      fill="#ffe6f9"
+      opacity="0.95">
+      Performance · SEO · Accessibility
+    </text>
+
+  </g>
+
 </svg>
