@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://avatars.githubusercontent.com/u/157272356?v=4" width="110" height="110" alt="avatar" style="border-radius:50%; border:2px solid rgba(56, 243, 237, 0.95); box-shadow: 0 0 18px rgba(92, 113, 248, 0.65), 0 0 36px rgba(249, 242, 227, 0.28); display:block; margin:0 auto;" />
+    <img src="assets/circle-avatar.png" width="110" height="110" alt="avatar" style="border-radius:50%; border:2px solid rgba(56, 243, 237, 0.95); box-shadow: 0 0 18px rgba(92, 113, 248, 0.65), 0 0 36px rgba(249, 242, 227, 0.28); display:block; margin:0 auto;" />
 </p>
 
 <p align="center">
