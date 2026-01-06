@@ -20,7 +20,7 @@
 </p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=2000&color=F7AB0A&center=true&vCenter=true&lines=Full%20Stack%20Developer;Technical%20Writer;AI%20Blogger;Open%20to%20Collaborations" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Outfit&weight=800&size=26&pause=2000&color=E608F7FF%C2%A2er=true&vCenter=true&lines=Full%20Stack%20Developer;Technical%20Writer;AI%20Blogger;Open%20to%20Collaborations" />
 </div>
 
 **What I Do:**
