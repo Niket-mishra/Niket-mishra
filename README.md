@@ -55,11 +55,10 @@ Embedded live GitHub stats and language summary.
 
 Click any thumbnail for details.
 
-<p float="left">
-	<a href="#"><img src="assets/project-landing.svg" alt="Landing" width="320" /></a>
-	<a href="#"><img src="assets/project-app.svg" alt="App" width="320" /></a>
-	<a href="#"><img src="assets/project-mobile.svg" alt="Mobile" width="320" /></a>
+<p align="center">
+  <img src="assets/project-grid.svg" alt="Featured Projects Grid" />
 </p>
+
 
 (Detailed case studies and live links available on request.)
 
