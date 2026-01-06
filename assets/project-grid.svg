@@ -57,59 +57,136 @@
   </defs>
 
   <!-- Row 1 -->
+
+  <!-- Landing & Portfolio -->
   <g transform="translate(40,40)">
     <rect width="340" height="200" rx="18" fill="url(#g-purple)" filter="url(#shadow-purple)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="20" font-weight="700" fill="#ffffff">Landing &amp; Portfolio</text>
-    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="14" fill="#f8fafc" opacity="0.95">Performance · SEO · Accessibility</text>
+
+    <!-- Icon -->
+    <g transform="translate(292,20)" opacity="0.9">
+      <rect x="0" y="0" width="24" height="18" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+      <line x1="0" y1="6" x2="24" y2="6" stroke="#fff" stroke-width="2"/>
+    </g>
+
+    <text x="24" y="92" font-size="20" font-weight="700" fill="#fff"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Landing &amp; Portfolio
+    </text>
+    <text x="24" y="120" font-size="14" fill="#f8fafc" opacity="0.95"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Performance · SEO · Accessibility
+    </text>
   </g>
 
+  <!-- Full-Stack Apps -->
   <g transform="translate(430,40)">
     <rect width="340" height="200" rx="18" fill="url(#g-blue)" filter="url(#shadow-blue)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="20" font-weight="700" fill="#ffffff">Full-Stack Apps</text>
-    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="14" fill="#f8fafc" opacity="0.95">Spring Boot · React · REST APIs</text>
+
+    <!-- Icon -->
+    <g transform="translate(292,20)" opacity="0.9">
+      <rect x="4" y="4" width="16" height="16" fill="none" stroke="#fff" stroke-width="2"/>
+      <rect x="0" y="0" width="16" height="16" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+
+    <text x="24" y="92" font-size="20" font-weight="700" fill="#fff"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Full-Stack Apps
+    </text>
+    <text x="24" y="120" font-size="14" fill="#f8fafc" opacity="0.95"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Spring Boot · React · REST APIs
+    </text>
   </g>
 
+  <!-- Mobile & Flutter -->
   <g transform="translate(820,40)">
     <rect width="340" height="200" rx="18" fill="url(#g-orange)" filter="url(#shadow-orange)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="20" font-weight="700" fill="#ffffff">Mobile &amp; Flutter</text>
-    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="14" fill="#f8fafc" opacity="0.95">Cross-platform UI · Prototypes</text>
+
+    <!-- Icon -->
+    <g transform="translate(292,18)" opacity="0.9">
+      <rect x="4" y="0" width="16" height="24" rx="3" fill="none" stroke="#fff" stroke-width="2"/>
+      <circle cx="12" cy="20" r="1.5" fill="#fff"/>
+    </g>
+
+    <text x="24" y="92" font-size="20" font-weight="700" fill="#fff"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Mobile &amp; Flutter
+    </text>
+    <text x="24" y="120" font-size="14" fill="#f8fafc" opacity="0.95"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Cross-platform UI · Prototypes
+    </text>
   </g>
 
   <!-- Row 2 -->
+
+  <!-- Backend & APIs -->
   <g transform="translate(40,280)">
     <rect width="340" height="200" rx="18" fill="url(#g-green)" filter="url(#shadow-green)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="20" font-weight="700" fill="#ffffff">Backend &amp; APIs</text>
-    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="14" fill="#f8fafc" opacity="0.95">Architecture · Security · Performance</text>
+
+    <!-- Icon -->
+    <g transform="translate(292,18)" opacity="0.9">
+      <rect x="2" y="4" width="20" height="14" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+      <circle cx="6" cy="11" r="1.5" fill="#fff"/>
+      <circle cx="12" cy="11" r="1.5" fill="#fff"/>
+      <circle cx="18" cy="11" r="1.5" fill="#fff"/>
+    </g>
+
+    <text x="24" y="92" font-size="20" font-weight="700" fill="#fff"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Backend &amp; APIs
+    </text>
+    <text x="24" y="120" font-size="14" fill="#f8fafc" opacity="0.95"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Architecture · Security · Performance
+    </text>
   </g>
 
+  <!-- Cloud & DevOps -->
   <g transform="translate(430,280)">
     <rect width="340" height="200" rx="18" fill="url(#g-navy)" filter="url(#shadow-navy)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="20" font-weight="700" fill="#ffffff">Cloud &amp; DevOps</text>
-    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="14" fill="#f8fafc" opacity="0.95">Docker · CI/CD · Deployments</text>
+
+    <!-- Icon -->
+    <g transform="translate(292,18)" opacity="0.9">
+      <path d="M8 18h12a4 4 0 0 0 0-8 6 6 0 0 0-12-1A5 5 0 0 0 8 18z"
+            fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+
+    <text x="24" y="92" font-size="20" font-weight="700" fill="#fff"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Cloud &amp; DevOps
+    </text>
+    <text x="24" y="120" font-size="14" fill="#f8fafc" opacity="0.95"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Docker · CI/CD · Deployments
+    </text>
   </g>
 
+  <!-- Technical Writing -->
   <g transform="translate(820,280)">
     <rect width="340" height="200" rx="18" fill="url(#g-gold)" filter="url(#shadow-gold)"/>
     <rect width="340" height="100" rx="18" fill="url(#shine)"/>
-    <text x="24" y="92" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="20" font-weight="700" fill="#ffffff">Technical Writing</text>
-    <text x="24" y="120" font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial"
-          font-size="14" fill="#f8fafc" opacity="0.95">Docs · DX · Knowledge Sharing</text>
+
+    <!-- Icon -->
+    <g transform="translate(292,18)" opacity="0.9">
+      <rect x="4" y="0" width="16" height="24" rx="2" fill="none" stroke="#fff" stroke-width="2"/>
+      <line x1="7" y1="6" x2="17" y2="6" stroke="#fff" stroke-width="2"/>
+      <line x1="7" y1="12" x2="17" y2="12" stroke="#fff" stroke-width="2"/>
+    </g>
+
+    <text x="24" y="92" font-size="20" font-weight="700" fill="#fff"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Technical Writing
+    </text>
+    <text x="24" y="120" font-size="14" fill="#f8fafc" opacity="0.95"
+          font-family="system-ui, -apple-system, Segoe UI, Roboto, Arial">
+      Docs · DX · Knowledge Sharing
+    </text>
   </g>
 
 </svg>
