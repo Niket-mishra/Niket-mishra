@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="assets/avatar-shadow.svg" width="110" height="110" alt="avatar" style="display:block; margin:0 auto;" />
+	<img src="assets/avatar-shadow.svg" width="150" height="150" alt="avatar" style="display:block; margin:0 auto;" />
 </p>
 
 <p align="center">
