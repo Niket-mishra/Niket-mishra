@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+
+  <defs>
+    <!-- Shared shine -->
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Shadows -->
+    <filter id="shadow-purple" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#2a0a52" flood-opacity="0.35"/>
+    </filter>
+    <filter id="shadow-blue" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#003a8f" flood-opacity="0.35"/>
+    </filter>
+    <filter id="shadow-orange" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#6b001c" flood-opacity="0.35"/>
+    </filter>
+    <filter id="shadow-green" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#003d33" flood-opacity="0.35"/>
+    </filter>
+    <filter id="shadow-navy" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#08141a" flood-opacity="0.4"/>
+    </filter>
+    <filter id="shadow-gold" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#7a1c1c" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="g-purple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7b2ff7"/>
+      <stop offset="100%" stop-color="#f107a3"/>
+    </linearGradient>
+
+    <linearGradient id="g-blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00c6ff"/>
+      <stop offset="100%" stop-color="#0072ff"/>
+    </linearGradient>
+
+    <linearGradient id="g-orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff7a18"/>
+      <stop offset="100%" stop-color="#af002d"/>
+    </linearGradient>
+
+    <linearGradient id="g-green" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00bfa5"/>
+      <stop offset="100%" stop-color="#00695c"/>
+    </linearGradient>
+
+    <linearGradient id="g-navy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+
+    <linearGradient id="g-gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffb347"/>
+      <stop offset="100%" stop-color="#ff5f6d"/>
+    </linearGradient>
+
+    <!-- Text style -->
+    <style>
+      .title { font: 700 20px system-ui; fill: #ffffff; }
+      .sub { font: 500 14px system-ui; fill: #f8fafc; opacity: 0.95; }
+    </style>
+  </defs>
+
+  <!-- CARD TEMPLATE FUNCTION (manually repeated for GitHub safety) -->
+
+  <!-- Row 1 -->
+  <g transform="translate(40,40)">
+    <rect width="340" height="200" rx="18" fill="url(#g-purple)" filter="url(#shadow-purple)"/>
+    <rect width="340" height="100" rx="18" fill="url(#shine)"/>
+    <text x="24" y="92" class="title">Landing & Portfolio</text>
+    <text x="24" y="120" class="sub">Performance · SEO · Accessibility</text>
+  </g>
+
+  <g transform="translate(430,40)">
+    <rect width="340" height="200" rx="18" fill="url(#g-blue)" filter="url(#shadow-blue)"/>
+    <rect width="340" height="100" rx="18" fill="url(#shine)"/>
+    <text x="24" y="92" class="title">Full-Stack Apps</text>
+    <text x="24" y="120" class="sub">Spring Boot · React · REST APIs</text>
+  </g>
+
+  <g transform="translate(820,40)">
+    <rect width="340" height="200" rx="18" fill="url(#g-orange)" filter="url(#shadow-orange)"/>
+    <rect width="340" height="100" rx="18" fill="url(#shine)"/>
+    <text x="24" y="92" class="title">Mobile & Flutter</text>
+    <text x="24" y="120" class="sub">Cross-platform UI · Prototypes</text>
+  </g>
+
+  <!-- Row 2 -->
+  <g transform="translate(40,280)">
+    <rect width="340" height="200" rx="18" fill="url(#g-green)" filter="url(#shadow-green)"/>
+    <rect width="340" height="100" rx="18" fill="url(#shine)"/>
+    <text x="24" y="92" class="title">Backend & APIs</text>
+    <text x="24" y="120" class="sub">Architecture · Security · Performance</text>
+  </g>
+
+  <g transform="translate(430,280)">
+    <rect width="340" height="200" rx="18" fill="url(#g-navy)" filter="url(#shadow-navy)"/>
+    <rect width="340" height="100" rx="18" fill="url(#shine)"/>
+    <text x="24" y="92" class="title">Cloud & DevOps</text>
+    <text x="24" y="120" class="sub">Docker · CI/CD · Deployments</text>
+  </g>
+
+  <g transform="translate(820,280)">
+    <rect width="340" height="200" rx="18" fill="url(#g-gold)" filter="url(#shadow-gold)"/>
+    <rect width="340" height="100" rx="18" fill="url(#shine)"/>
+    <text x="24" y="92" class="title">Technical Writing</text>
+    <text x="24" y="120" class="sub">Docs · DX · Knowledge Sharing</text>
+  </g>
+
+</svg>
